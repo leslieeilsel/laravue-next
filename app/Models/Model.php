@@ -2,12 +2,20 @@
 
 namespace App\Models;
 
+use DateTimeInterface;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 
 class Model extends EloquentModel
 {
-    public function scopeRecent($query)
+    /**
+     * 为数组/JSON 序列化日期
+     *
+     * @param  \DateTimeInterface  $date
+     *
+     * @return string
+     */
+    protected function serializeDate(DateTimeInterface $date): string
     {
-        return $query->orderBy('created_at', 'desc');
+        return $date->format($this->dateFormat ?: 'Y-m-d H:i:s');
     }
 }
