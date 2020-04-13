@@ -10,7 +10,7 @@ class Model extends EloquentModel
     /**
      * 为数组/JSON 序列化日期
      *
-     * @param  \DateTimeInterface  $date
+     * @param  DateTimeInterface  $date
      *
      * @return string
      */
