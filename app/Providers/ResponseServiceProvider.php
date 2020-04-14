@@ -16,12 +16,12 @@ class ResponseServiceProvider extends ServiceProvider
     public function boot()
     {
         // 自定义 json 响应格式
-        Response::macro('formatJson', function ($success, $data, $message) {
+        Response::macro('formatJson', function ($success, $data, $message, $code = 200) {
             return new JsonResponse([
                 'success' => $success,
                 'data'    => $data,
                 'message' => $message,
-            ]);
+            ], $code);
         });
     }
 }
