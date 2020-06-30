@@ -1,7 +1,7 @@
-<h1 align="center">laravue</h1>
-<div align="center">
-基于 Laravel 和 Vue 实现的后台管理系统
-</div>
+# laravue
+![](https://img.shields.io/badge/php-%3E%3D7.2.5-blue)
+[![GitHub issues](https://img.shields.io/github/issues/leslieeilsel/laravue-next)](https://github.com/leslieeilsel/laravue-next/issues)
+![](https://img.shields.io/github/last-commit/leslieeilsel/laravue-next?style=flat)
 
 ![登录页](./storage/screenshot/login.png)
 
