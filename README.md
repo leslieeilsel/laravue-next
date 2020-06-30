@@ -1,7 +1,19 @@
-# laravue
-![](https://img.shields.io/badge/php-%3E%3D7.2.5-blue)
-[![GitHub issues](https://img.shields.io/github/issues/leslieeilsel/laravue-next)](https://github.com/leslieeilsel/laravue-next/issues)
-![](https://img.shields.io/github/last-commit/leslieeilsel/laravue-next?style=flat)
+<div align="center">
+  <h1>
+    laravue
+  </h1>
+  <p align="center">
+    <a href="#">
+      <img src="https://img.shields.io/badge/php-%3E%3D7.2.5-blue" alt=""/>
+    </a>
+    <a href="https://github.com/leslieeilsel/laravue-next/issues" target="_blank">
+      <img src="https://img.shields.io/github/issues/leslieeilsel/laravue-next"/>
+    </a>
+    <a href="https://github.com/leslieeilsel/laravue-next/commits/master" target="_blank">
+      <img src="https://img.shields.io/github/last-commit/leslieeilsel/laravue-next?style=flat"/>
+    </a>
+  </p>
+</div>
 
 ![登录页](./storage/screenshot/login.png)
 
