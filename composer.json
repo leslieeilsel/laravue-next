@@ -16,7 +16,8 @@
         "laravel/sanctum": "^2.1",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.0",
-        "rap2hpoutre/laravel-log-viewer": "^1.4"
+        "rap2hpoutre/laravel-log-viewer": "^1.4",
+        "spatie/laravel-permission": "^3.13"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
